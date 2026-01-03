@@ -130,7 +130,276 @@ const preguntasSentencias = [
 // --- MINITEST (3 OPCIONES) ---
 
 const preguntasMinitest = [
- 
+  {
+    texto: "Quin és el motor real de l’empresa?",
+    opciones: [
+      "a) La tecnologia",
+      "b) Les persones",
+      "c) Els beneficis econòmics"
+    ],
+    correcta: "b"
+  },
+  {
+    texto: "Quina característica defineix millor les emocions?",
+    opciones: [
+      "a) Sempre racionals",
+      "b) Automàtiques i involuntàries",
+      "c) Controlades per normes"
+    ],
+    correcta: "b"
+  },
+  {
+    texto: "Segons la teoria X, el treballador:",
+    opciones: [
+      "a) Busca responsabilitats",
+      "b) És creatiu i autònom",
+      "c) Evita l’esforç i la responsabilitat"
+    ],
+    correcta: "c"
+  },
+  {
+    texto: "Quina teoria considera el treball com una font de satisfacció?",
+    opciones: [
+      "a) Teoria X",
+      "b) Teoria Y",
+      "c) Teoria burocràtica"
+    ],
+    correcta: "b"
+  },
+  {
+    texto: "La teoria Z posa èmfasi principalment en:",
+    opciones: [
+      "a) El control estricte",
+      "b) La confiança i el compromís",
+      "c) La competència interna"
+    ],
+    correcta: "b"
+  },
+  {
+    texto: "Què és la Direcció per Objectius (DPO)?",
+    opciones: [
+      "a) Controlar només els costos",
+      "b) Centrar-se en resultats pactats",
+      "c) Prioritzar les normes internes"
+    ],
+    correcta: "b"
+  },
+  {
+    texto: "Quina funció té el control a l’empresa?",
+    opciones: [
+      "a) Castigar errors",
+      "b) Verificar que es compleix el planificat",
+      "c) Substituir la direcció"
+    ],
+    correcta: "b"
+  },
+  {
+    texto: "El control correctiu actua:",
+    opciones: [
+      "a) Abans que aparegui el problema",
+      "b) Durant la planificació",
+      "c) Quan ja hi ha una desviació"
+    ],
+    correcta: "c"
+  },
+  {
+    texto: "Quin estil de lideratge pren decisions sense consultar l’equip?",
+    opciones: [
+      "a) Democràtic",
+      "b) Autocràtic",
+      "c) Participatiu"
+    ],
+    correcta: "b"
+  },
+  {
+    texto: "L’estil burocràtic es basa sobretot en:",
+    opciones: [
+      "a) Carisma personal",
+      "b) Normes i protocols",
+      "c) Emocions de l’equip"
+    ],
+    correcta: "b"
+  },
+  {
+    texto: "El lideratge carismàtic destaca per:",
+    opciones: [
+      "a) L’ús estricte de normes",
+      "b) La personalitat del líder",
+      "c) La rotació constant"
+    ],
+    correcta: "b"
+  },
+  {
+    texto: "Quin estil fomenta més la participació de l’equip?",
+    opciones: [
+      "a) Autocràtic",
+      "b) Democràtic",
+      "c) Burocràtic"
+    ],
+    correcta: "b"
+  },
+  {
+    texto: "El lideratge laissez-faire es caracteritza per:",
+    opciones: [
+      "a) Control constant",
+      "b) Absència de direcció",
+      "c) Excés de normes"
+    ],
+    correcta: "b"
+  },
+  {
+    texto: "Què és la intel·ligència emocional?",
+    opciones: [
+      "a) Capacitat tècnica",
+      "b) Gestió de les emocions pròpies i alienes",
+      "c) Coneixement normatiu"
+    ],
+    correcta: "b"
+  },
+  {
+    texto: "Quina habilitat forma part de la intel·ligència emocional?",
+    opciones: [
+      "a) Autoritarisme",
+      "b) Empatia",
+      "c) Control burocràtic"
+    ],
+    correcta: "b"
+  },
+  {
+    texto: "Un líder sense autocontrol emocional pot generar:",
+    opciones: [
+      "a) Més motivació",
+      "b) Conflictes interns",
+      "c) Millors resultats"
+    ],
+    correcta: "b"
+  },
+  {
+    texto: "El lideratge transaccional es basa en:",
+    opciones: [
+      "a) Inspiració i valors",
+      "b) Recompenses i càstigs",
+      "c) Autonomia total"
+    ],
+    correcta: "b"
+  },
+  {
+    texto: "El lideratge transformacional té com a objectiu:",
+    opciones: [
+      "a) Controlar costos",
+      "b) Inspirar i fer créixer l’equip",
+      "c) Aplicar sancions"
+    ],
+    correcta: "b"
+  },
+  {
+    texto: "Quin element és clau per generar confiança?",
+    opciones: [
+      "a) Comunicació clara",
+      "b) Pressió constant",
+      "c) Distància jeràrquica"
+    ],
+    correcta: "a"
+  },
+  {
+    texto: "Un bon líder ha de:",
+    opciones: [
+      "a) Imposar sempre la seva opinió",
+      "b) Adaptar-se a les situacions",
+      "c) Evitar el diàleg"
+    ],
+    correcta: "b"
+  },
+  {
+    texto: "La motivació del líder:",
+    opciones: [
+      "a) No influeix en l’equip",
+      "b) Influeix directament en l’equip",
+      "c) Només afecta la direcció"
+    ],
+    correcta: "b"
+  },
+  {
+    texto: "El lideratge natural apareix quan:",
+    opciones: [
+      "a) Hi ha un càrrec oficial",
+      "b) L’equip reconeix el líder",
+      "c) Hi ha normes estrictes"
+    ],
+    correcta: "b"
+  },
+  {
+    texto: "Quina característica defineix millor un bon líder?",
+    opciones: [
+      "a) Control absolut",
+      "b) Capacitat d’inspirar",
+      "c) Distància emocional"
+    ],
+    correcta: "b"
+  },
+  {
+    texto: "Acceptar errors ajuda a:",
+    opciones: [
+      "a) Perdre autoritat",
+      "b) Millorar el lideratge",
+      "c) Generar por"
+    ],
+    correcta: "b"
+  },
+  {
+    texto: "La comunicació deficient pot provocar:",
+    opciones: [
+      "a) Millor rendiment",
+      "b) Conflictes i confusió",
+      "c) Més compromís"
+    ],
+    correcta: "b"
+  },
+  {
+    texto: "Què reforça el compromís de l’equip?",
+    opciones: [
+      "a) Ignorar opinions",
+      "b) Confiança i respecte",
+      "c) Control excessiu"
+    ],
+    correcta: "b"
+  },
+  {
+    texto: "Un líder eficaç combina:",
+    opciones: [
+      "a) Autoritat i empatia",
+      "b) Rigidesa i distància",
+      "c) Por i control"
+    ],
+    correcta: "a"
+  },
+  {
+    texto: "L’empatia permet:",
+    opciones: [
+      "a) Imposar decisions",
+      "b) Entendre els altres",
+      "c) Evitar la comunicació"
+    ],
+    correcta: "b"
+  },
+  {
+    texto: "El lideratge orientat a les persones prioritza:",
+    opciones: [
+      "a) Només els resultats",
+      "b) Les relacions i el desenvolupament",
+      "c) Les sancions"
+    ],
+    correcta: "b"
+  },
+  {
+    texto: "El lideratge eficaç busca:",
+    opciones: [
+      "a) Complir ordres sense qüestionar",
+      "b) Equilibri entre persones i resultats",
+      "c) Control jeràrquic absolut"
+    ],
+    correcta: "b"
+  }
 ];
 
 
@@ -283,6 +552,7 @@ function desactivarBotones() {
 // =======================
 
 document.addEventListener("DOMContentLoaded", mostrarMenuInicial);
+
 
 
 
